@@ -1,5 +1,6 @@
 import plusOperation
 import minusOperation
+import multiplyOperation
 
 a = int(input("enter a:"))
 b = int(input("enter b:"))
@@ -11,5 +12,9 @@ if (op == "+"):
 
 if (op == "-"):
     answer = minusOperation.minus(a,b)
+
+if (op == "*"):
+    answer = multiplyOperation.multiply(a,b)
     
 print(f"answer is {answer}")
+
